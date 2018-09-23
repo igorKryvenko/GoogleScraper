@@ -50,7 +50,7 @@ https://pypi.python.org/pypi/pip). Therefore you maybe want to install GoogleScr
 ```
 virtualenv --python python3 env
 source env/bin/activate
-pip install git+git://github.com/NikolaiT/GoogleScraper/
+pip install git+git://github.com/igorKryvenko/GoogleScraper/
 ```
 
 Please note that some features and examples might not work as expected. I also don't guarantee that
