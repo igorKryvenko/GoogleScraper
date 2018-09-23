@@ -103,7 +103,7 @@ search_engines = ['google', ]
 # Ready to append the parameters at the end to fine tune the search.
 
 # The google base search url
-google_search_url = 'https://www.google.com/search?'
+google_search_url = 'https://www.google.com.ua/search?'
 
 # whether to change the search settings prior to scraping
 # when this is set to False google will search with 
