@@ -221,7 +221,7 @@ proxy_info_url = 'http://ipinfo.io/json'
 
 # The basic search url
 # Default is google
-base_search_url = 'http://www.google.com/search'
+base_search_url = 'http://www.google.com.ua/search'
 
 # Whether caching shall be enabled
 do_caching = False
@@ -362,7 +362,7 @@ All settings that target the raw http packet scraping mode.
 # for each mode
 # search engine urls for the specific engines
 # The google search url specifiably for http mode
-google_search_url = 'https://www.google.com/search?'
+google_search_url = 'https://www.google.com.ua/search?'
 
 """
 [HTTP_ASYNC]
