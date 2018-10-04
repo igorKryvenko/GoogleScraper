@@ -124,7 +124,7 @@ google_selenium_num_results = 100
 # Private results help find more relevant content for you, including content and connections that only you can see.
 google_selenium_personalization = False
 # use a country code such as US, DE, GB, CH, ...
-google_selenium_region = 'DE'
+google_selenium_region = 'UA'
 google_selenium_safe_search = False
 # the language for google search results
 google_selenium_language = 'English'

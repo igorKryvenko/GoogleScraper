@@ -44,6 +44,8 @@ def get_GET_params_for_search_engine(query, search_engine, page_number=1, num_re
         # state by some hard coded needles.
         search_params['hl'] = 'ua'
         search_params['q'] = query
+        search_params['cr'] = 'countryUA'
+        search_params['tbs'] = 'ctr:countryUA'
         # only set when other num results than 10.
         if num_results_per_page != 10:
             search_params['num'] = str(num_results_per_page)

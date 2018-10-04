@@ -68,7 +68,7 @@ google_search_params = {
     'filter': 0,  # Include omitted results if set to 0
     'complete': None,  # Turn auto-suggest and Google Instant on (=1) or off (=0)
     'nfpr': None,  # Turn off auto-correction of spelling on=1, off=0
-    'ncr': None,
+    'ncr': 'UA',
     # No country redirect: Allows you to set the Google country engine you would like to use despite your
     # current geographic location.
     'safe': 'off',  # Turns the adult content filter on or off
@@ -105,8 +105,8 @@ google_search_params = {
     # Restricts searches to pages in the specified language. If there are no results in the specified language, the
     # search appliance displays results in all languages .
     # lang_xx where xx is the country code such as en, de, fr, ca, ...
-    'hl': None,  # Language settings passed down by your browser
-    'cr': None,  # The region the results should come from
+    'hl': 'ua',  # Language settings passed down by your browser
+    'cr': 'UA',  # The region the results should come from
     'gr': None,
     # Just as gl shows you how results look in a specified country, gr limits the results to a certain region
     'gcs': None,  # Limits results to a certain city, you can also use latitude and longitude
